@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/socket.io.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/five.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/client_connect.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+
+	<body>
+		<div class="box">
+			<div class="box_left">
+				<ul>
+					<li>用户名:
+						<input type="text" id="username"/>
+						<input type="button" id="conn" value="连接" />
+					</li>
+					<li>请输入:
+						<input type="text" id="send_content"/>
+						<input type="button" id="send" value="发送" />
+					</li>
+					聊天消息:
+					<li>
+						<div id="messeage"></div>
+					</li>
+					在线列表:
+					<li>
+
+						<div class="oline_list" id="oline_list"></div>
+					</li>
+				</ul>
+			</div>
+			<div class="box_right">
+				
+			</div>
+
+			<!--<canvas id="five"></canvas>-->
+		</div>
+
+	</body>
+
+</html>

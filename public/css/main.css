@@ -1,0 +1,10 @@
+*{padding: 0px;margin: 0px;}
+ul,li{list-style: none;}
+.box{width: 900px;height: 600px;margin: 0px auto;}
+.box .box_left{width: 298px;height: 598px;float:left;border: 1px solid black;}
+.box .box_right{width: 600px;height: 600px;float:left;}
+.box .box_left ul{}
+.box .box_left li{border: 1px solid;padding: 2px;margin:8px;}
+.box .box_left #messeage{width: 280px;height: 220px;overflow: scroll;}
+.box .box_left .oline_list{width: 280px;height: 220px;overflow: scroll;}
+.box .box_right div{float: left;width: 148px;height:148px;border: 1px solid;}
